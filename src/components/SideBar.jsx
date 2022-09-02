@@ -20,6 +20,7 @@ const SideBar = () => (
           background: category.name === selectedCategory && "#FC1503",
           color: "#fff",
         }}
+        key={category.name}
       >
         <span>{category.icon}</span>
         <span>{category.name}</span>
