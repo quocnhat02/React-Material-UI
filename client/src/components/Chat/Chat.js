@@ -18,7 +18,7 @@ const Chat = ({ location }) => {
     setRoom(room);
 
     console.log(socket);
-  });
+  }, []);
 
   return <div>Chat</div>;
 };
